@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "homepage": "https://yakymenko-d.github.io/todo-app/",
+  "homepage": "https://yakymenko-d.github.io/todo-app",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
@@ -10,11 +10,11 @@
     "react-scripts": "3.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "mpm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
