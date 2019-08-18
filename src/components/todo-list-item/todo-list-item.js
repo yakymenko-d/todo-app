@@ -39,7 +39,7 @@ export default class TodoListItem extends Component {
     }
 
     return (
-      <span className={classNames}>
+      <span className={ classNames }>
         <span
           className="todo-list-item-label"
           onClick={ this.onLabelClick }>
