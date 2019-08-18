@@ -1,4 +1,16 @@
-.addButton {
+.mt10 {
+    margin-top: 10px;
+}
+
+.mr3 {
+    margin-right: 3px;
+}
+
+.add-button {
+    width: 130px;
+}
+
+.d-flex {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
